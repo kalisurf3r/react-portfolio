@@ -1,11 +1,7 @@
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
 export default function Aboutme() {
   return (
-   
-    <div className="flex flex-col justify-between min-h-screen">
-         <Navbar />
+    <div className="flex flex-col justify-between min-h-screen">  
     <div>
       <h1>About Me</h1>
       <p>
@@ -17,9 +13,6 @@ export default function Aboutme() {
       <div>
         <img src="avatar.jpeg" alt="selfie" className="Avatar" height="250px" width="200px"/>
       </div>
-    </div>
-    <div>
-      <Footer />
     </div>
   </div>
   );
