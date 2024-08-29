@@ -13,8 +13,13 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <Aboutme />,
+        element: <App />,
         children: [
+            {
+                index: true,
+                path: '/Aboutme',
+                element: <Aboutme />
+            },           
             {
                 path: '/Contact',
                 element: <Contact />
