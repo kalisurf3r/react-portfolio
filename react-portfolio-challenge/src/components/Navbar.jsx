@@ -4,10 +4,10 @@ export default function Navbar() {
   const currentPage = useLocation().pathname;
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg bg-black bg-gradient">
             <div className="container-fluid">
               <div className="nav-item">
-                <h2>Arturo Ayala</h2>
+                <h2 className="text-white">Arturo Ayala</h2>
               </div>
               <ul className="nav nav-tabs">
                <li className="nav-item">

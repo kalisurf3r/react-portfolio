@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    background-color: black;
+    color: white;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure all elements have the correct background color */
+body * {
+    background-color: black;
+    color: white;
+}
+
+main {
+    min-height: 100vh;
+}
