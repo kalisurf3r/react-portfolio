@@ -2,18 +2,19 @@ export default function Resume() {
     return (
         <div className="flex flex-col justify-between min-h-screen">
             <div>
-                <h1>Resume</h1>
-                <p>Download my <a href="https://docs.google.com/document/d/1m9bJr5oJYXbV9t7N6g5sJz7bJ1t7S0fF/edit?usp=sharing&ouid=101083298085104084682&rtpof=true" target="_blank">resume</a></p>
-                <h2>Front-end Proficiencies</h2>
+                <h1 style={{fontFamily: 'Open Sans'}}>Resume</h1>
+                <p>Download my <a href="newResume.pdf" target="_blank">resume</a></p>
+                <h2 style={{fontFamily: 'Open Sans'}}>Front-end Proficiencies</h2>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JavaScript</li>
-                    <li>responsive design</li>
+                    <li>Responsive Design</li>
                     <li>React</li>
                     <li>Bootstrap</li>
+                    <li>Tailwind</li>
                 </ul>
-                <h2>Back-end Proficiencies</h2>
+                <h2 style={{fontFamily: 'Open Sans'}}>Back-end Proficiencies</h2>
                 <ul>
                     <li>APIs</li>
                     <li>Node</li>
